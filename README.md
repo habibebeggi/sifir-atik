@@ -1,4 +1,4 @@
-The .env file should contain the following: 
+# The .env file should contain the following: 
 "
 NEXT_PUBLIC_DATABASE_URL
 NEXT_PUBLIC_GEMINI_API_KEY 
