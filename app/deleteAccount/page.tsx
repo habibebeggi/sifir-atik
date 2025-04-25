@@ -7,7 +7,7 @@ import { EthereumPrivateKeyProvider } from "@web3auth/ethereum-provider";
 import { deleteUser, getUserByEmail } from "@/utils/db/actions";
 import { TriangleAlert } from "lucide-react"; 
 
-const clientId = "BFGefkkBvNTXMwwn7MTwm-9BjBCVOIRBnOH36zPRKJPHofPzcN4Vu1KBmp9tA39HvrVCfbpbCfh1g1U1TOdfStM";
+const clientId = process.env.NEXT_PUBLIC_WEB3AUTH_CLIENT_ID;
 
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.EIP155,
